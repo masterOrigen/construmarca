@@ -1,0 +1,14 @@
+{
+    "name": "scraper-supabase",
+    "version": "1.0.0",
+    "description": "Scraper de productos con Puppeteer y Supabase, listo para Railway",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "@supabase/supabase-js": "^2.39.7",
+      "puppeteer": "^22.0.0",
+      "dotenv": "^16.4.5"
+    }
+  }
