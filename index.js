@@ -214,7 +214,7 @@ async function main() {
   console.log('🚀 Iniciando scraper robusto...');
   
   // Configuración más conservadora para Railway
-  const blockSize = 25; // Bloques más pequeños
+  const blockSize = 100; // Bloques más pequeños
   const maxRetries = 3;
   const delayBetweenUrls = 2000; // 2 segundos entre URLs
   const delayBetweenBlocks = 5 * 60 * 1000; // 5 minutos entre bloques
